@@ -1,0 +1,1 @@
+CREATE INDEX ON products USING hnsw (word2vec_emb vector_cosine_ops);
